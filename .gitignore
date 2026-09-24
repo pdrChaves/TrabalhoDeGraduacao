@@ -1,0 +1,135 @@
+# ============================================================
+# Trabalho de Graduacao
+# Raiz: Docker + backend NestJS/Prisma + mobile React Native
+# ============================================================
+
+# Variaveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Dependencias JavaScript/TypeScript
+node_modules/
+.npm/
+.pnpm-store/
+
+# Yarn moderno: mantenha releases e plugins versionados
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Saidas de build
+dist/
+build/
+out/
+web-build/
+*.tsbuildinfo
+
+# Testes e cobertura
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+
+# Caches de ferramentas
+.cache/
+.parcel-cache/
+.turbo/
+.nx/
+.swc/
+.jest-cache/
+.eslintcache
+.stylelintcache
+
+# Logs e diagnosticos
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+report.*.json
+
+# Processos locais
+pids/
+*.pid
+*.pid.lock
+*.seed
+
+# Expo e Metro
+.expo/
+.expo-shared/
+.metro-health-check*
+
+# Android e Gradle
+.gradle/
+.cxx/
+.externalNativeBuild/
+local.properties
+captures/
+*.apk
+*.aab
+*.hprof
+
+# Chaves de assinatura nunca devem ser versionadas
+*.jks
+*.keystore
+
+# iOS e Xcode
+Pods/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+.xcode.env.local
+
+# Configuracoes locais do Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Dados locais criados por bind mounts do Docker
+docker-data/
+postgres-data/
+
+# Editores
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Configurações pessoais do Claude Code
+.claude/settings.local.json
+**/.claude/settings.local.json
+
+# Sistema operacional
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.directory
+.Trash-*
+
+# Arquivos temporarios
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Pacotes gerados localmente
+*.tgz
+
+# IMPORTANTE: mantenha versionados
+# .env.example
+# docker-compose.yaml / compose.yaml
+# Dockerfile e arquivos Dockerfile.*
+# package.json e lockfiles
+# prisma/schema.prisma e prisma/migrations/
+# arquivos de teste e configuracoes de CI
